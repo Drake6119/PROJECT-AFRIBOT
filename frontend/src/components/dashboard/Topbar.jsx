@@ -1,4 +1,4 @@
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/authContext";
 
 function Topbar() {
   const { user } = useAuth();
@@ -10,7 +10,7 @@ function Topbar() {
 
         <div>
           <h2 className="text-2xl font-bold">
-            Welcome back 👋
+            Welcome back 
           </h2>
 
           <p className="text-gray-500">
